@@ -2,7 +2,8 @@
 
 Pas AI-modellen toe om curriculumontwikkeling en het maken van online cursussen
 te versnellen. Gebruik dit bij het ontwerpen van curricula, het in kaart brengen
-van leerdoelen, het aligneren van CLO's/PLO's, het classificeren van
+van leerdoelen, het uitlijnen van Cursusuitkomsten (CU's) en 
+programmauitkomsten (PU's), het classificeren van
 Bloom-niveaus, het bouwen van kennisgrafen/ontologieën, het sequentiëren van
 cursussen, het genereren van toetsen of instructiemateriaal, of het
 personaliseren van leerroutes.
@@ -16,7 +17,7 @@ personaliseren van leerroutes.
 | Jouw taak | Aanpak | Referentie |
 |-----------|--------|------------|
 | Leerdoelen taggen op Bloom-niveau; ontbrekende/oververtegenwoordigde niveaus signaleren | NLP-classificatie | Prompt A |
-| Cursusuitkomsten (CLO) aligneren met programma-uitkomsten (PLO); hiaten signaleren | NLP semantische alignering | Prompt B |
+| Cursusuitkomsten (CU's) aligneren met programma-uitkomsten (PU's); hiaten signaleren | NLP semantische alignering | Prompt B |
 | Curriculum koppelen aan standaarden/competentiekaders; overlap/hiaten opsporen | Ontologie / Kennisgraaf | Prompt C, D |
 | Volgorde van cursussen adviseren; leerroutes personaliseren; prereq-problemen vinden | Recommender / Graaf | Prompt E |
 | Collegeaantekeningen, toetsvragen, casussen schrijven; vereenvoudigen/adapteren | Generatieve AI | Prompt F |
@@ -56,4 +57,4 @@ personaliseren van leerroutes.
 ## Referentie
 
 Ratiarson (2025), *"AI Models for Accelerating Curriculum Development and
-Online Course Creation"* (literatuurstudie).
+Online Course Creation"* (literatuurstudie) [preprint].
