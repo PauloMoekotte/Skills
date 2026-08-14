@@ -20,30 +20,30 @@ or higher-order (Analyze/Evaluate/Create) levels are missing or over-represented
 
 Outcomes:
 """
-[PASTE CLOs / PLOs]
+[PASTE CUs / PUs]
 """
 ```
 Evidence: Li et al. (2022) classified 21,000+ objectives; BERT reached Cohen's
 kappa 0.93, F1 up to 0.95; even SVM/Random Forest were competitive.
 
-## Prompt B — CLO → PLO alignment
+## Prompt B — CU → PU alignment
 
 ```
 You are an outcomes-based-education specialist. Map each Course Learning Outcome
 (CLO) to the most relevant Program Learning Outcome (PLO). For each CLO give:
-PLO id | Confidence (High/Med/Low) | Reasoning. Flag CLOs that map to no PLO
-(gap) and PLOs with no supporting CLO (coverage gap).
+PLO id | Confidence (High/Med/Low) | Reasoning. Flag CUs that map to no PLO
+(gap) and PUs with no supporting CU (coverage gap).
 
-CLOs:
+CUs:
 """
-[PASTE CLOs]
+[PASTE CIs]
 """
-PLOs:
+PUs:
 """
-[PASTE PLOs]
+[PASTE PUs]
 """
 ```
-Evidence: Zaki et al. (2022) CLO-to-PLO NLP mapping achieved 83–88% precision
+Evidence: Zaki et al. (2022) CU-to-PU NLP mapping achieved 83–88% precision
 vs human experts.
 
 ## Prompt C — Build a curriculum knowledge graph
