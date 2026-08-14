@@ -1,54 +1,59 @@
 # ai-curriculum-dev
 
-Apply AI models to accelerate curriculum development and online course creation.
-Use when designing curricula, mapping learning outcomes, aligning CLOs/PLOs,
-classifying Bloom's Taxonomy levels, building knowledge graphs/ontologies,
-sequencing courses, generating assessments or instructional content, or
-personalizing learning paths.
+Pas AI-modellen toe om curriculumontwikkeling en het maken van online cursussen
+te versnellen. Gebruik dit bij het ontwerpen van curricula, het in kaart brengen
+van leerdoelen, het aligneren van CLO's/PLO's, het classificeren van
+Bloom-niveaus, het bouwen van kennisgrafen/ontologieën, het sequentiëren van
+cursussen, het genereren van toetsen of instructiemateriaal, of het
+personaliseren van leerroutes.
 
-> **Core principle:** AI augments, never replaces, human curriculum judgment.
-> Always review AI output for accuracy, bias, and pedagogical fit before adoption.
+> **Kernprincipe:** AI ondersteunt, vervangt nooit, het pedagogisch oordeel van
+> de mens. Controleer AI-uitvoer altijd op juistheid, bias en didactische
+> geschiktheid voordat je het overneemt.
 
-## Which approach fits the task?
+## Welke aanpak past bij de taak?
 
-| Your task | Approach | Reference |
-|-----------|----------|----------|
-| Tag outcomes by Bloom's level; detect missing/over-represented levels | NLP classification | Prompt A |
-| Align course outcomes (CLO) to program outcomes (PLO); detect gaps | NLP semantic alignment | Prompt B |
-| Map curriculum to standards/competency frameworks; spot overlap/gaps | Ontology / Knowledge Graph | Prompt C, D |
-| Recommend course order; personalize learning paths; find prereq issues | Recommender / Graph | Prompt E |
-| Draft lecture notes, quiz items, case studies; simplify/adapt content | Generative AI | Prompt F |
+| Jouw taak | Aanpak | Referentie |
+|-----------|--------|------------|
+| Leerdoelen taggen op Bloom-niveau; ontbrekende/oververtegenwoordigde niveaus signaleren | NLP-classificatie | Prompt A |
+| Cursusuitkomsten (CLO) aligneren met programma-uitkomsten (PLO); hiaten signaleren | NLP semantische alignering | Prompt B |
+| Curriculum koppelen aan standaarden/competentiekaders; overlap/hiaten opsporen | Ontologie / Kennisgraaf | Prompt C, D |
+| Volgorde van cursussen adviseren; leerroutes personaliseren; prereq-problemen vinden | Recommender / Graaf | Prompt E |
+| Collegeaantekeningen, toetsvragen, casussen schrijven; vereenvoudigen/adapteren | Generatieve AI | Prompt F |
 
-## Workflows
+## Werkwijzen
 
-1. **Outcome classification & alignment (NLP)** — Classify outcomes by Bloom's
-   level, cross-check CLO→PLO alignment, surface mismatches, human review.
-2. **Competency / standards mapping (Ontology + KG)** — Build a lightweight
-   knowledge graph linking outcomes to frameworks (e.g. SFIA, national
-   qualifications); run gap/overlap queries; align old↔new frameworks.
-3. **Course sequencing & learning paths (Recommender + Graph)** — Encode the
-   prerequisite graph, recommend next courses, validate against hard rules,
-   mine successful real-world pathways.
-4. **Content generation & adaptive design (Generative AI)** — Generate first
-   drafts (notes, MCQs, case studies), adapt tone/level per cohort, produce
-   explanation variants; human review every item.
+1. **Classificatie & alignering van uitkomsten (NLP)** — Classificeer
+   leerdoelen op Bloom-niveau, controleer CLO→PLO-alignering, breng
+   mismatches aan het licht, menselijke review.
+2. **Competentie-/standaardenkoppeling (Ontologie + KG)** — Bouw een lichte
+   kennisgraaf die uitkomsten koppelt aan kaders (bijv. SFIA, nationale
+   kwalificaties); voer gap/overlap-queries uit; aligneer oude↔nieuwe kaders.
+3. **Cursusvolgorde & leerroutes (Recommender + Graaf)** — Codeer de
+   prerequisite-graaf, adviseer volgende cursussen, valideer tegen harde regels,
+   mine succesvolle praktijkroutes.
+4. **Contentgeneratie & adaptief ontwerp (Generatieve AI)** — Genereer
+   eerste concepten (aantekeningen, MC-vragen, casussen), pas toon/niveau aan
+   per cohort, produceer uitlegvarianten; menselijke review van elk item.
 
-## Guardrails (apply to all workflows)
+## Waarborgen (van toepassing op alle werkwijzen)
 
-- **Hallucination risk** — LLMs invent plausible-but-wrong mappings. Combine
-  with curated knowledge bases + human-in-the-loop.
-- **Trust** — require explainability; AI must show reasoning, not just a verdict.
-- **Equity/quality** — vet AI content like peer-reviewed OER; involve subject
-  experts, designers, and student feedback.
-- **Accountability stays human** — AI drafts, educator owns the final curriculum.
+- **Hallucinatierisico** — LLM's verzinnen plausibele maar foute koppelingen.
+  Combineer met curated kennisbanken + mens-in-de-lus.
+- **Vertrouwen** — eis verklaarbaarheid; AI moet redenering tonen, niet alleen
+  een oordeel.
+- **Gelijkwaardigheid/kwaliteit** — beoordeel AI-content als peer-reviewed OER;
+  betrek vakdeskundigen, ontwerpers en studentfeedback.
+- **Verantwoordelijkheid blijft menselijk** — AI maakt concepten, de docent
+  bezit het definitieve curriculum.
 
-## Files
+## Bestanden
 
-- `SKILL.md` — decision guide and workflows (this skill's entry point).
-- `REFERENCE.md` — copy-paste prompts (A–F) and the supporting evidence base
-  from Ratiarson (2025).
+- `SKILL.md` — beslissingsgids en werkwijzen (het instappunt van deze skill).
+- `REFERENCE.md` — copy-paste prompts (A–F) en de onderliggende
+  bewijsbasis uit Ratiarson (2025).
 
-## Reference
+## Referentie
 
 Ratiarson (2025), *"AI Models for Accelerating Curriculum Development and
-Online Course Creation"* (literature review).
+Online Course Creation"* (literatuurstudie).
