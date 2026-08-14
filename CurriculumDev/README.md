@@ -25,7 +25,7 @@ personaliseren van leerroutes.
 ## Werkwijzen
 
 1. **Classificatie & alignering van uitkomsten (NLP)** — Classificeer
-   leerdoelen op Bloom-niveau, controleer CLO→PLO-alignering, breng
+   leerdoelen op Bloom-niveau, controleer CU→PU-alignering, breng
    mismatches aan het licht, menselijke review.
 2. **Competentie-/standaardenkoppeling (Ontologie + KG)** — Bouw een lichte
    kennisgraaf die uitkomsten koppelt aan kaders (bijv. SFIA, nationale
