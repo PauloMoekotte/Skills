@@ -1,6 +1,6 @@
 ---
 name: ai-curriculum-dev-reference
-description: Detailed prompts and evidence for the ai-curriculum-dev skill. See [../SKILL.md](../SKILL.md).
+description: Detailed prompts and evidence for the ai-curriculum-dev skill. See [SKILL.md](SKILL.md).
 ---
 
 # Reference — Prompts & Evidence (Ratiarson 2025)
